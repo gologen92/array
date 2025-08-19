@@ -123,4 +123,5 @@ void randArr(int mas[], int x)
     srand(time(NULL));
     for (int i = 0;i < SIZE;i++)
         mas[i] = rand() % (2 * x + 1) - x;
-}
+}//Первый коммент для проверки коммитов
+
